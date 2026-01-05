@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**Unifyd** is a unified authentication platform that provides **all modern authentication methods** in one secure, scalable, and developer-friendly solution.
 
-## Getting Started
+From email and social logins to enterprise SSO, biometrics, and passkeys — makes identity management simple.
 
-First, run the development server:
+## 🚀 Getting Started
 
 ```bash
+# clone the repository
+git clone https://github.com/masum184e/unifyd.git
+
+# install dependencies
+npm install
+
+# start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔒 Authentication Methods
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Email-Based
+   - Continue with Email (magic link)
+   - Email + Password
+   - Email + OTP (one-time passcode)
+   - Passwordless Email Link
+2. Phone Number
+   - Phone Number + OTP (SMS)
+   - Phone Number + Password
+   - WhatsApp OTP
+3. Social Media Login (OAuth)
+   - Continue with Google
+   - Continue with Facebook
+   - Continue with Apple
+   - Continue with Instagram
+   - Continue with Snapchat
+   - Continue with Twitter / X
+   - Continue with LinkedIn
+   - Continue with TikTok
+   - Continue with GitHub
+   - Continue with Microsoft
+4. Single Sign-On (SSO)
+   - Login with SSO
+   - Enterprise SSO (SAML 2.0)
+   - OpenID Connect (OIDC)
+   - Login with Okta
+   - Login with Auth0
+   - Login with Azure AD
+   - Login with Google Workspace
+   - Login with OneLogin
+5. Biometric Authentication
+   - Face ID
+   - Touch ID / Fingerprint
+   - Voice Recognition
+6. Device-Based
+   - Passkeys (WebAuthn)
+   - Device Authentication
+   - Trusted Device Login
+7. Username-Based
+   - Username + Password
+   - Username + OTP
+8. Multi-Factor Authentication (MFA)
+   - Email + SMS OTP
+   - Password + Authenticator App
+   - Push Notification Approval
+   - Hardware Security Key (YubiKey)
+9. Guest / Anonymous Access
+   - Continue as Guest
+   - Anonymous Login (temporary session)
+10. Crypto / Web3
+    - Login with Wallet (MetaMask, WalletConnect)
+    - Sign in with Ethereum (SIWE)
