@@ -1,5 +1,5 @@
 import { Mail } from "lucide-react";
-import UserOTP from "./UserOTP";
+import EmailOTP from "./EmailOTP";
 import EmailPassword from "./EmailPassword";
 import MagicLink from "./MagicLink";
 import PasswordLess from "./PasswordLess";
@@ -16,7 +16,7 @@ const Email = () => {
         <EmailPassword />
         <MagicLink />
         <PasswordLess />
-        <UserOTP />
+        <EmailOTP />
       </div>
     </div>
   );
